@@ -13,3 +13,4 @@ produceTipCalculator = (percent) => {
       return fare * percent;
   }
 }
+
