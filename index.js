@@ -15,11 +15,11 @@ produceTipCalculator = (percent) => {
 }
 
 createDriver = () => {
-  let driverID
+  let driverId = 0;
   return class Driver {
     constructor (name) {
       this.name = name;
-      this.id = id++;
+      this.id = ++driverId;
     }
   }
   
