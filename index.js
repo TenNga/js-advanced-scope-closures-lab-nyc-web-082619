@@ -15,7 +15,7 @@ produceTipCalculator = (percent) => {
 }
 
 createDriver = () => {
-  return class Driver(){
+  return class Driver {
     
   }
 }
